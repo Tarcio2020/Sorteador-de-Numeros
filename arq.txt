@@ -1,0 +1,19 @@
+A configuração do Less divide a compilação em 
+Desenvolvimento e produção. Vamos configurar o less para 
+para que o trecho de produção seja executado apenas na version
+(internet)....
+
+1-Mudamos o psckage.json para:
+    "scripts": {
+    "grunt": "grunt",
+    "build": "grunt build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+
+2-Alteramos no final do arq Grunt:
+    // [] = Array...pode conter várias tarefas
+    grunt.registerTask('default', ['less: development']);
+    grunt.registerTask('build', ['less: production']);
+
+
