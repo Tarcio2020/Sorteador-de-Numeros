@@ -1,7 +1,7 @@
 {
-  "name": "projeto-com-grunt",
+  "name": "grunt",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000S\u0000o\u0000r\u0000t\u0000e\u0000a\u0000d\u0000o\u0000r\u0000-\u0000d\u0000e\u0000-\u0000N\u0000u\u0000m\u0000e\u0000r\u0000o\u0000s\u0000-\u0000G\u0000r\u0000u\u0000n\u0000t\u0000A\u0000n\u0000d\u0000J\u0000S\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "grunt": "grunt",
@@ -12,10 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.6.1",
-    "grunt-concurrent": "^3.0.0",
     "grunt-contrib-less": "^3.0.0",
-    "grunt-contrib-sass": "^2.0.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-less": "^0.1.7"
+    "grunt-contrib-sass": "^2.0.0"
   }
 }
