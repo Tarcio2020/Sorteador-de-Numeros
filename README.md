@@ -188,10 +188,14 @@ Colocamos no final do arq
 
     grunt.loadNpmTasks('grunt-contrib-sass');
 
-  
+  _______________________________________________________
 
+Para o grunt ficar assistindo as atualizações:
 
+    npm install --save-dev grunt-contrib-watch
 
+Para 
+    npm install --save-dev grunt-replace
 
 
 
