@@ -18,15 +18,22 @@ module .exports = function(grunt) {
                 }
             }
         },
+        watch: {
+            less: {
+                files:['src/styles**/*.less'],
+                tasks: ['less:development']
+            }
+        },
     })
 
 
 
     grunt.loadNpmTasks('grunt-contrib-less');
-    
+    grunt.loadNpmTasks('grunt-contrib-watch');
+
     // [] = Array...pode conter várias tarefas
     //                             não pode ter espaço
-    grunt.registerTask('default', ['less:development']);
+    grunt.registerTask('default', ['watch']);
 
     grunt.registerTask('build', ['less:production']);
 
